@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Comment vas-tu combattre la bête?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="quiz">
+    <h1>Quelle récompense mérites-tu ?</h1>
+
+    <div class="question" data-question="1">
+      <p>Tu es dans la forêt. Tu entends un bruit :</p>
+      <button onclick="answer('cru')">C'est le rugissement d'un ours </button>
+      <button onclick="answer('doux')">C'est le chant d'un oiseau </button>
+    </div>
+
+    <div class="question hidden" data-question="2">
+      <p>En cas de danger, tu as prévu :</p>
+      <button onclick="answer('cru')">Une arme pour te defendre </button>
+      <button onclick="answer('doux')">De parler doucement pour faire déscendre la tension </button>
+    </div>
+
+    <div class="question hidden" data-question="3">
+      <p>On dit toujours de toi que tu as une personalité:</p>
+      <button onclick="answer('cru')">Rugueuse, tendue</button>
+      <button onclick="answer('doux')">Douce, harmonisée</button>
+    </div>
+  </div>
+
+  <div id="result" class="hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
