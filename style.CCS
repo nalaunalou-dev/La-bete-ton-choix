@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Georgia, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#quiz, #result {
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 12px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
