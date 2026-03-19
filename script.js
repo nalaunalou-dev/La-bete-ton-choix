@@ -31,7 +31,7 @@ function showResult() {
     `;
   } else {
     result.innerHTML = `
-      <h2>Version Gold </h2>
+      <h2>Version GOLD </h2>
       <p>Dans une prairie en plein jour, le monstre n'est pas celui que vous croyez. Les petites voix dans votre tête vont-elles se coordonner ? .</p>
       <a href="https://www.youtube.com/watch?v=jDt-CiZFL3E&list=OLAK5uy_k4VzMNh5QwFC7a3HhJw-vFHGuVSd9hzLU&index=2" target="_blank">YouTube</a><br>
       <a href="https://open.spotify.com/intl-fr/track/52A7NP9FTFszAv194su7Zj" target="_blank">Spotify</a><br>
